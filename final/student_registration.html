@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>student sign in</title>
+	<link rel = "stylesheet" href=index.css>
+</head>
+<body background="student_registration.jpg" >
+	<div class="topnav">
+  		<div class="topnav-right">
+  			<a href="student_signin.html">Student</a>
+    		<a href="admin_signin.html">Admin</a>
+    		<a href="senior_signin.html">Senior</a>
+        </div>
+	</div>
+  <div style="color: blue; align ;" >
+    <h1 ALIGN="CENTER"><i>Student Registration</i></h1>
+  </div>
+  <form action="student_registration.php" method= "post" class="align" >
+    <table border="0" align="center">
+<tbody>
+
+<tr>
+<td><label>Name: </label></td>
+<td><input name="name" type="text" placeholder="name" required/></td>
+</tr>
+<tr></tr>
+<tr>
+<td><label>phone no: </label></td>
+<td><input name="phone" type="text" placeholder="9876543219" required/></td>
+</tr>
+<tr></tr>
+<tr>
+<td><label>Email id: </label></td>
+<td><input name="email" type="email" placeholder="name@site.com" required/></td>
+</tr>
+<tr></tr>
+<tr>
+<td><label>Password: </label></td>
+<td><input name="password" type="password" placeholder="********" required/></td>
+</tr>
+<tr></tr>
+<tr>
+<td><label>Branch: </label></td>
+<td><select name ="branch">
+      <option value="cse">CSE</option>
+      <option value="ise">ISE</option>
+      <option value="ece">ECE</option>
+      <option value="tce">TCE</option>
+      <option value="me">ME</option>
+      <option value="civil">VIVIL</option>
+    </select><br/></td>
+</tr>
+<tr></tr>
+<tr>
+<td><label>Year: </label></td>
+<td><input name="batch" type="text" placeholder="5" required/></td>
+</tr>
+<tr></tr>
+
+<tr>
+<td align="center" colspan="2"><input name="Submit" type="Submit" value="Register" /></td>
+</tr>
+
+</tbody>
+
+
+	
+</body>
+</html>
